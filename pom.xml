@@ -103,7 +103,7 @@
 
     <properties>
         <pgpVerifyKeysVersion>1.9.6</pgpVerifyKeysVersion>
-        <maven.compiler.release>8</maven.compiler.release>
+        <maven.compiler.release>17</maven.compiler.release>
 
         <connectorPackage>org.forgerock.openicf.connectors.kerberos</connectorPackage>
         <connectorClass>KerberosConnector</connectorClass>
@@ -132,9 +132,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy-all</artifactId>
-            <version>2.4.7</version>
+            <groupId>org.apache.groovy</groupId>
+            <artifactId>groovy</artifactId>
+            <version>5.0.2</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
