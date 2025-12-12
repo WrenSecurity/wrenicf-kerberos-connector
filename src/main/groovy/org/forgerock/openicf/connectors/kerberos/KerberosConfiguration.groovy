@@ -39,7 +39,7 @@ public class KerberosConfiguration extends SSHConfiguration {
     /**
      * Enum for authentication method
      */
-    private static final enum AuthN {
+    private static enum AuthN {
         PASSWORD, PUBKEY
     }
 
