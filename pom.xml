@@ -26,7 +26,7 @@
 
     <groupId>org.wrensecurity.wrenicf.connector</groupId>
     <artifactId>kerberos-connector</artifactId>
-    <version>1.5.3.0</version>
+    <version>1.5.3.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
     <name>Kerberos Connector for Wren:ICF</name>
@@ -38,7 +38,7 @@
         <url>https://github.com/WrenSecurity/wrenicf-kerberos-connector</url>
         <connection>scm:git:git://github.com/WrenSecurity/wrenicf-kerberos-connector.git</connection>
         <developerConnection>scm:git:git@github.com:WrenSecurity/wrenicf-kerberos-connector.git</developerConnection>
-        <tag>1.5.3.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
